@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Assignment</title>
+    <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+    <div class="flex_container" >
+    <nav class="navbar" >
+<ul>
+
+<li><a href="">Home</a></li>
+<li><a href="">Lessons</a></li>
+
+<li><a href="">About</a></li>
+
+<li><a href="">Contact Us</a></li>
+
+
+</ul>
+</nav>
+</div>
+
+<div class="sidebar" id="mysidebar"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="">Subscription</a>
+
+<a href="">Comments</a>
+
+    <a href="">Like Video</a>
+        <a href="">Library</a>
+
+</div>
+<div id="main">
+    <button class="openbtn" onclick="openNav()">☰ </button>  
+</div>
+</div>
+
+<div class="main-content">
+    <div class="video1">
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/wNLxiRcNsPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+</div>
+
+<div class="video2">
+
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/sv3TXMSv6Lw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div class="video3">
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/_q5GKCNZcHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</div>
+
+
+</div>
+<div class="main-content">
+<div class="video1">
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/wBFrmiDDIek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</div>
+
+<div class="video2">
+
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/yDX3gTy5qYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div class="video3">
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/8GxfnU5gVII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</div>
+
+</div>
+
+    </nav>
+    </div>
+    <script>
+        function openNav() {
+          document.getElementById("mysidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mysidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
+       
+</body>
+</html>
